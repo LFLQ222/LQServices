@@ -9,9 +9,7 @@ const Page = () => (
     <Explore />
     <GetStarted />
     <WhatsNew />
-    <World />
-    <Insights />
-    <Feedback />
+   
     <Footer />
   </div>
 );

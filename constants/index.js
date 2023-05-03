@@ -1,49 +1,56 @@
+import React from "react";
+import { HiOutlineMail } from "react-icons/hi";
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/contract.jpg',
+    title: 'Análisis Confidencial de Viabilidad de Beneficios de Pacientes',
+    description: 'Identificamos que los pacientes cuenten con aseguranza y con cobertura de los servicios ofrecidos por la clínica',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: '/contract2.jpg',
+    title: 'Gestión Personalizada de Cobranza con Aseguradoras',
+    description: 'LQ Services se asegura que las clínicas cumplan con todos los requisitos que se necesita para el trámite de los cobros.',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    imgUrl: '/contract3.jpg',
+    title: 'Asesoría en Cobranza con Pacientes',
+    description: 'Te llevamos de la mano para poder generar los registros correctos para el éxito de tu cobranza americana, validando la información de soporte de los reclamos.',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: '/contract4.jpg',
+    title: 'Plataforma GCDental de Gestión de Pacientes',
+    description: 'Tendrás acceso a una plataforma con la mayor seguridad en datos e información de pacientes, agenda y alertas de cobranza, médicas y personalizadas.',
   },
-  {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
-  },
+  
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Incremento de ingresos',
+  'Incremento de pacientes',
+  'Crecimiento de la clínica en general',
+  'Acompañamiento de nuestros expertos',
 ];
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
-    subtitle:
-        'we have the latest update with new world for you to try never mind',
+
+    title: 'Investigaciones de los seguros dentales en menos de una hora',
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
-    subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+    title: 'Envio de los reclamos dentro de las 24 horas una vez recibida la inforamcion completa',
+  },
+  {
+    title: 'Claridad en el manejo de los seguros dentales',
+  },
+  {
+    title: 'En caso de que un Seguro no pague / o el paciente no entregue el pago correspondiente, nosotros tampoco recibimos pago',
+  },
+  {
+    title: 'Se podra observar en el sistema los cobros enviados y su estatus.',
   },
 ];
 
@@ -70,8 +77,13 @@ export const insights = [
 
 export const socials = [
   {
-    name: 'twitter',
-    url: '/twitter.svg',
+    name: "mail",
+    child: (
+      <>
+        Mail <HiOutlineMail size={30} />
+      </>
+    ),
+    href: "mailto:contacto.lqservices@gmail.com",
   },
   {
     name: 'linkedin',

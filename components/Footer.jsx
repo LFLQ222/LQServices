@@ -1,10 +1,9 @@
 'use client';
 import { AiOutlineMail } from 'react-icons/ai';
 import { motion } from 'framer-motion';
-import { socials } from '../constants';
+import { footerVariants } from '../utils/motion';
 
 import styles from '../styles';
-import { footerVariants } from '../utils/motion';
 
 const Footer = () => (
   <motion.footer
@@ -19,7 +18,6 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Trabaja con nosotros
         </h4>
-        
       </div>
 
       <div className="flex flex-col">
@@ -34,10 +32,8 @@ const Footer = () => (
           </p>
 
           <div className="flex gap-4">
-            
-            
             <a href="mailto:contacto.lqservices@gmail.com">
-            <AiOutlineMail className="text-white text-2x1 w-[50px] h-[50px] object-contain cursor-pointer" />
+              <AiOutlineMail className="text-white text-2x1 w-[50px] h-[50px] object-contain cursor-pointer" />
             </a>
           </div>
         </div>
@@ -47,3 +43,4 @@ const Footer = () => (
 );
 
 export default Footer;
+
